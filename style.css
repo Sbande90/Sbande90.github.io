@@ -1,0 +1,216 @@
+body{ 
+    background: url("./abstract-network-featured.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+section {
+        background-color: white;
+        border-radius: 10px;
+        opacity: 0.8;
+        margin-left: 26%;
+        width: 72%;
+        padding: 20px;
+        margin-bottom: 15px;
+    }
+
+
+
+.img-profile {
+    max-width: 9.4rem;
+    max-height: 12rem;
+    border: .4rem solid rgb(41, 5, 97);
+    text-align: center;
+    margin-left: 30px;
+}
+/* .mb-3{
+    margin-bottom: 1rem!important; */
+/* } */
+.rounded-circle {
+    border-radius: 50%!important;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+* {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+.small{
+    width: 100%;
+    min-height: 80px;
+    height: fit-content;
+    letter-spacing: 4px;
+    line-height: 60px;
+    position: fixed;
+    background-color: rgb(255, 245, 234);
+    font-family: 'Poppins', sans-serif;
+    z-index: 3;
+    top: 0;
+}
+
+.large {
+    width: 250px;
+    height: 100%;
+    flex-direction: column;
+    border-right: 3px solid rgb(41, 5, 97);
+    border-bottom: none;
+    letter-spacing: 4px;
+    line-height: 60px;
+    position: fixed;
+    padding-top: 7%;
+    overflow: scroll;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    min-height: 8vh;
+    background-color: rgb(255, 245, 234);
+    font-family: 'Poppins', sans-serif;
+    z-index: 3;
+    padding-left: 20px;
+    top: 0;
+}
+/*about text*/
+#about-text, .skills-text {
+    /* padding-left: 300px; */
+    bottom: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: rgb(41, 5, 97);
+    font-size: 24px;
+    letter-spacing: 1px;
+    padding-bottom: 70px;
+}
+/*about text 2*/
+#about-header, #skills-header {
+    /* margin-left: 250px; */
+    font-family: 'Oswald', sans-serif;
+    color: rgb(41, 5, 97);
+    font-weight: bolder;
+    font-size: 50px;
+    letter-spacing: 3px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+#skills {
+    padding-left: 40px;
+    padding-bottom: 200px;
+    margin-top: 25px;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+/* new style*/
+#contact {
+    padding-top: 95px;
+    padding-bottom: 280px;
+    background: url("./abstract-network-featured.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+section {
+    background-size: cover;
+    min-height: 100%;
+    max-height: fit-content;
+    margin-top: 150px;
+}
+article, aside, figcaption, figure, footer, header, hgroup, main, section {
+    display: block;
+}
+/* this one too*/
+a#linked, a#git, #bar {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rgb(255, 245, 234);
+    display: inline;
+    text-decoration: underline;
+    font-size: 38px;
+}
+a#linked, a#git, #bar {
+    font-size: 32px !important;
+}
+/* trying new thing*/
+#contact-info {
+    list-style-type: none;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(255, 245, 234);
+    text-transform: uppercase;
+    font-size: 42px;
+    text-shadow: -3px 0 rgb(41, 5, 97), 0 1px rgb(41, 5, 97), 1px 0 rgb(41, 5, 97), 0 -1px rgb(41, 5, 97);
+    padding-top: 55px;
+    letter-spacing: 3px;
+    text-align: center;
+    line-height: 60px;
+}
+/* dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 1rem; */
+/* } */
+/* contact header*/
+#contact-header {
+    font-family: 'Oswald', sans-serif;
+    color: rgb(255, 245, 234);
+    text-transform: uppercase;
+    font-size: 55px;
+    text-shadow: -1px 0 rgb(41, 5, 97), 0 1px rgb(41, 5, 97), 1px 0 rgb(41, 5, 97), 0 -1px rgb(41, 5, 97);
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: bolder;
+}
+.icons {
+    color: rgb(41, 5, 97) !important;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.github{
+    text-decoration: none !important;
+}
+#projects-header {
+    /* padding-left: 250px; */
+    font-family: 'Oswald', sans-serif;
+    color: rgb(41, 5, 97);
+    font-weight: bolder;
+    font-size: 50px;
+    letter-spacing: 3px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.img{
+    /* margin-left: 50%; */
+    border-radius: 5px;
+    border: 1px black solid;
+}
+.code-refactor {
+    /* padding-left: 300px; */
+    bottom: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: rgb(41, 5, 97);
+    font-size: 24px;
+    letter-spacing: 1px;
+    
+}
+#projects{
+    text-align: center;
+}
+.selected{
+    background-color: lightblue;
+    color: beige;
+    border-radius: 5px;
+    text-decoration: none !important; 
+}
+.mobile-link{
+    padding: 10px;
+    font-size: 1.2rem;
+}
