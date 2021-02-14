@@ -1,6 +1,7 @@
-body{ 
-    background: url("./abstract-network-featured.jpg") no-repeat center center fixed;
+body { 
+    /* background: url("./abstract-network-featured.jpg") no-repeat center center fixed; */
     background-size: cover;
+    background-color: hsl(50, 33%, 25%);
 }
 
 section {
@@ -105,6 +106,7 @@ img {
     padding-left: 40px;
     padding-bottom: 200px;
     margin-top: 25px;
+    background-color: bisque;
 }
 
 p {
@@ -115,8 +117,9 @@ p {
 #contact {
     padding-top: 95px;
     padding-bottom: 280px;
-    background: url("./abstract-network-featured.jpg") no-repeat center center fixed;
+    /* background: url("./abstract-network-featured.jpg") no-repeat center center fixed; */
     background-size: cover;
+    background-color: bisque;
 }
 section {
     background-size: cover;
@@ -131,7 +134,8 @@ article, aside, figcaption, figure, footer, header, hgroup, main, section {
 a#linked, a#git, #bar {
     text-decoration: none;
     text-transform: capitalize;
-    color: rgb(255, 245, 234);
+    /* color: rgb(255, 245, 234); */
+    color: rgb(68, 61, 73);
     display: inline;
     text-decoration: underline;
     font-size: 38px;
@@ -159,7 +163,8 @@ a#linked, a#git, #bar {
 /* contact header*/
 #contact-header {
     font-family: 'Oswald', sans-serif;
-    color: rgb(255, 245, 234);
+    /* color: rgb(255, 245, 234); */
+    color: rgb(41, 5, 97);
     text-transform: uppercase;
     font-size: 55px;
     text-shadow: -1px 0 rgb(41, 5, 97), 0 1px rgb(41, 5, 97), 1px 0 rgb(41, 5, 97), 0 -1px rgb(41, 5, 97);
@@ -203,6 +208,7 @@ a#linked, a#git, #bar {
 }
 #projects{
     text-align: center;
+    background-color: bisque;
 }
 .selected{
     background-color: lightblue;
@@ -213,4 +219,8 @@ a#linked, a#git, #bar {
 .mobile-link{
     padding: 10px;
     font-size: 1.2rem;
+}
+
+#about{
+    background-color: bisque;
 }
