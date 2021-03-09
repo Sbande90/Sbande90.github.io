@@ -1,7 +1,8 @@
 body { 
     /* background: url("./abstract-network-featured.jpg") no-repeat center center fixed; */
     background-size: cover;
-    background-color: hsl(50, 33%, 25%);
+    background-color: black;
+    /* background-image: url("./imgage.jpg"); */
 }
 
 section {
@@ -45,7 +46,7 @@ img {
 *, ::after, ::before {
     box-sizing: border-box;
 }
-.small{
+/* .small{
     width: 100%;
     min-height: 80px;
     height: fit-content;
@@ -56,7 +57,7 @@ img {
     font-family: 'Poppins', sans-serif;
     z-index: 3;
     top: 0;
-}
+} */
 
 .large {
     width: 250px;
@@ -79,8 +80,8 @@ img {
     padding-left: 20px;
     top: 0;
 }
-/*about text*/
-#about-text, .skills-text {
+
+.skills-text {
     /* padding-left: 300px; */
     bottom: 0;
     font-family: 'Roboto', sans-serif;
@@ -90,6 +91,17 @@ img {
     letter-spacing: 1px;
     padding-bottom: 70px;
 }
+
+#about-text {
+    bottom: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: rgb(41, 5, 97);
+    font-size: 24px;
+    letter-spacing: 1px;
+    padding-bottom: 70px;
+}
+
 /*about text 2*/
 #about-header, #skills-header {
     /* margin-left: 250px; */
@@ -103,10 +115,17 @@ img {
     text-align: center;
 }
 #skills {
-    padding-left: 40px;
-    padding-bottom: 200px;
-    margin-top: 25px;
+    padding: 25px;
+    /* padding-right: 50px; */
+    /* padding-bottom: 200px;
+    margin-top: 40px; */
+    /* padding-top: 40px; */
     background-color: bisque;
+    width: 72%;
+    height: 40%;
+    margin-left: 24%;
+    
+    
 }
 
 p {
@@ -116,10 +135,17 @@ p {
 /* new style*/
 #contact {
     padding-top: 95px;
-    padding-bottom: 280px;
+    /* padding-bottom: 280px; */
     /* background: url("./abstract-network-featured.jpg") no-repeat center center fixed; */
     background-size: cover;
     background-color: bisque;
+    /* width: 65%;
+    height: 40%; */
+    padding: 10%;
+
+    width: 72%;
+    height: 40%;
+    margin-left: 24%;
 }
 section {
     background-size: cover;
@@ -155,6 +181,10 @@ a#linked, a#git, #bar {
     letter-spacing: 3px;
     text-align: center;
     line-height: 60px;
+
+    /* width: 72%;
+    height: 40%;
+    margin-left: 24%; */
 }
 /* dl, ol, ul {
     margin-top: 0;
@@ -173,7 +203,7 @@ a#linked, a#git, #bar {
     font-weight: bolder;
 }
 .icons {
-    color: rgb(41, 5, 97) !important;
+    color: rgb(42, 38, 255) !important;
     padding-right: 15px;
     padding-left: 15px;
 }
@@ -209,10 +239,12 @@ a#linked, a#git, #bar {
 #projects{
     text-align: center;
     background-color: bisque;
+    margin-left: 24%;
+        
 }
 .selected{
-    background-color: lightblue;
-    color: beige;
+    background-color: rgb(28, 28, 29);
+    color: white;
     border-radius: 5px;
     text-decoration: none !important; 
 }
@@ -223,4 +255,26 @@ a#linked, a#git, #bar {
 
 #about{
     background-color: bisque;
+    margin-left: 24%;
 }
+
+
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: white;
+    
+}
+
+footer h2 {
+    font-size: 20px;
+}
+
+/* ul {
+    background-color: lightblue;
+    color: beige;
+    border-radius: 5px;
+    text-decoration: none !important;
+} */
